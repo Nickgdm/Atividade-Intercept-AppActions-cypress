@@ -33,7 +33,7 @@ describe('Funcionalidade: Administrar Reservas de livros', () => {
         cy.contains('Nenhuma reserva').should('be.visible')
     })
 })
-
+//funcionalidade em AppActions
 describe('Um cenário com uma funcionalidade em AppActions', () => {
     it('Deve acessar o dashboard utilizando loginApp', () => {
         cy.loginApp(
