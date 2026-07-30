@@ -18,7 +18,7 @@
     "url": "https://github.com/EBAC-QE/teste-cy-base/issues"
   },
   "homepage": "https://github.com/EBAC-QE/teste-cy-base#readme",
-  "dependencies": {
-    "cypress": "^14.5.4"
+  "devDependencies": {
+    "cypress": "^15.19.0"
   }
 }

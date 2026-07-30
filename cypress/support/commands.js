@@ -24,26 +24,6 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('login', (email, senha, sucesso = true) => {
-    cy.visit('login.html')
-    cy.get('#email').type(email)
-    cy.get('#password').type(senha)
-    cy.get('#login-btn').click()
-
-    if (sucesso) {
-        cy.url().should('include', 'dashboard')
-    }
-
-
-})
-
-Cypress.Commands.add('loginErro', (email, senha) => {
-    cy.visit('login.html')
-    cy.get('#email').type(email)
-    cy.get('#password').type(senha)
-    cy.get('#login-btn').click()
-})
-
 Cypress.Commands.add('loginApp', (email, senha) => {
     cy.request({
         method: 'POST',
@@ -60,11 +40,4 @@ Cypress.Commands.add('loginApp', (email, senha) => {
         cy.visit('dashboard.html')
         cy.get('h4').should('contain', 'Olá')
     })
-})
-
-Cypress.Commands.add('loginToken', (token) => {
-    cy.visit('login.html')
-    window.localStorage.setItem('authToken', token)
-    cy.visit('dashboard.html')
-    cy.get('h4').should('contain', 'Olá')
 })
