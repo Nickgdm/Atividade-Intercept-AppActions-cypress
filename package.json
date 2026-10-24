@@ -1,23 +1,16 @@
 {
   "name": "teste-cy-base",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto de automação Cypress com Intercept e App Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EBAC-QE/teste-cy-base.git"
+    "test": "cypress run",
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/EBAC-QE/teste-cy-base/issues"
-  },
-  "homepage": "https://github.com/EBAC-QE/teste-cy-base#readme",
   "devDependencies": {
     "cypress": "^15.19.0"
   }
