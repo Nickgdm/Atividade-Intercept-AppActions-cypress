@@ -1,16 +1,13 @@
-╔══════════════════════════════════════════════════════╗
-║            CYPRESS AVANÇADO: INTERCEPT E APP ACTIONS  ║
-╚══════════════════════════════════════════════════════╝
-
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                 CYPRESS AVANÇADO: INTERCEPT E APP ACTIONS                               ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
 Projeto de estudo para praticar recursos de automação de interface com Cypress, com foco na interceptação de requisições de rede e na interação com a aplicação por meio de App Actions.
-
-══════════════════════════════════════════════════════
 
 ## Sobre o projeto
 
 A atividade explora técnicas que ajudam a tornar os testes de interface mais previsíveis, sincronizando a execução com chamadas de rede relevantes e organizando as interações com a aplicação.
-
-══════════════════════════════════════════════════════
 
 ## Objetivos
 
@@ -18,23 +15,17 @@ A atividade explora técnicas que ajudam a tornar os testes de interface mais pr
 - Organizar interações com a aplicação para tornar os testes mais previsíveis.
 - Validar comportamentos da interface relacionados às respostas da aplicação.
 
-══════════════════════════════════════════════════════
-
 ## Tecnologias e ferramentas
 
 - JavaScript
 - Node.js e npm
 - Cypress
 
-══════════════════════════════════════════════════════
-
 ## Pré-requisitos
 
 - Node.js e npm instalados.
 - Aplicação-alvo disponível conforme a configuração do projeto.
 - Dependências instaladas.
-
-══════════════════════════════════════════════════════
 
 ## Instalação e execução
 
@@ -60,8 +51,6 @@ Consulte `package.json`, `cypress.config.js` e os arquivos em `cypress/` para co
 
 Se `cypress.env.json` contiver credenciais ou tokens reais, não os publique. Utilize valores locais e mantenha segredos fora do versionamento.
 
-══════════════════════════════════════════════════════
-
 ## Estrutura do projeto
 
 ```text
@@ -74,15 +63,11 @@ Atividade-Intercept-AppActions-cypress/
 └── README.md
 ```
 
-══════════════════════════════════════════════════════
-
 ## Desafios práticos
 
 - Coordenar os testes com chamadas de rede.
 - Aguardar respostas relevantes antes de validar o comportamento.
 - Manter a automação legível e menos dependente de esperas arbitrárias.
-
-══════════════════════════════════════════════════════
 
 ## Boas práticas
 
@@ -91,22 +76,16 @@ Atividade-Intercept-AppActions-cypress/
 - Padronizar a execução pelo Cypress.
 - Remover segredos antes de compartilhar o projeto publicamente.
 
-══════════════════════════════════════════════════════
-
 ## Aprendizados
 
 A atividade permite praticar técnicas de Cypress, como interceptar requisições e estruturar ações de aplicação para criar testes de interface mais previsíveis e fáceis de manter.
 
-══════════════════════════════════════════════════════
-
 ## Considerações finais
 
 A lista exata de cenários depende dos arquivos de teste presentes no repositório. Revise as configurações de ambiente e confirme que nenhum segredo está incluído antes de compartilhar o projeto.
-
-══════════════════════════════════════════════════════
-
-## Formação e natureza da atividade
-
-Este projeto foi desenvolvido como uma **atividade facultativa** no contexto dos estudos de Quality Assurance (QA), durante a formação da EBAC — Escola Britânica de Artes Criativas e Tecnologia. Seu objetivo é praticar e consolidar conhecimentos de automação de interface com Cypress.
-
-══════════════════════════════════════════════════════
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║       Atividade desenvolvida durante a formação profissionalizante em Quality Assurance (QA) pela       ║
+║                     EBAC — Escola Britânica de Artes Criativas e Tecnologia                             ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
